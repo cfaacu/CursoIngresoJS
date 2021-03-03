@@ -1,6 +1,32 @@
+//Careri Facundo
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
 
-}//FIN DE LA FUNCIÓN
+	edad=document.getElementById("txtIdEdad").value;
+	edad=parseInt(edad);
+
+	/*
+	if(edad>17)
+	{
+		alert("Usted NO es adolescente");
+	}
+	if(edad<12)
+	{
+		alert ("Usted NO es adolescente");
+	}
+	*/
+
+
+	/*
+	if(!(edad<18 && edad>12)) // ! negacion
+	{
+		alert("Usted NO es adolescente");
+	}
+	*/
+
+	if (edad>17||edad<12)  //|| Entra los numeros entre uno y otro
+	{
+		alert("Usted NO es adolescente");
+	}
+}

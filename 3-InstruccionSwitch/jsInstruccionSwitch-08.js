@@ -1,6 +1,23 @@
+//Careri Facundo
 function mostrar()
 {
 	var destinoIngresado =txtIdDestino.value;
-	alert(destinoIngresado);
 
+	switch(destinoIngresado)
+	{
+		case "Bariloche":
+			mensaje=("FRIO.");
+			break;
+		case "Cataratas":
+			mensaje=("CALOR.");
+			break;
+		case "Mar del plata":
+			mensaje=("CALOR.");
+			break;
+		case "Ushuaia":
+			mensaje=("FRIO.");
+			break;
+	}
+
+	alert (mensaje);
 }//FIN DE LA FUNCIÓN

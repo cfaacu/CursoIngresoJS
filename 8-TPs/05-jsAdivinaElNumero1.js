@@ -12,15 +12,21 @@ var contadorIntentos;
 
 function comenzar()
 {
-	//Genero el número RANDOM entre 1 y 100
+	var numeroAleatorio
+
+	numeroAleatorio=Math.floor(Math.random() * 100) + 1;//Genero el número RANDOM entre 1 y 100
 	 
-		//alert(numeroSecreto );
+		alert(numeroAleatorio);
 	
 
 }
 
 function verificar()
 {
-	
+	var numero;
+	numero=document.getElementById('txtIdNumero').value
+	numero=parseInt(numero);
+
+	alert(numero);
 	
 }

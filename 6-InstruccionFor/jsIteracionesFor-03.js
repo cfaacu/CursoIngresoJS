@@ -1,8 +1,18 @@
+//Careri Facundo
 function mostrar()
 {
 
-	var repetciones = prompt("ingrese el número de repeticiones");
-	alert("ok");
+	var repetciones
+	var cantidad;
+
+	repetciones=prompt("Ingrese la cantidad de veces: ");
+	repetciones=parseInt(repetciones);
+
+	for(cantidad=0;cantidad<repetciones;cantidad++)
+	{
+		console.log("Hola UTN FRA");
+	}
+
 
 
 }//FIN DE LA FUNCIÓN
